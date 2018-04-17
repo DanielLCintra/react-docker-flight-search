@@ -1,4 +1,4 @@
-# MaxMilhas Frontend test - by Daniel Cintra
+# Flight Search - by Daniel Cintra
 
 
 ## To build project container: 
@@ -33,7 +33,7 @@ docker container run -it -p 3000:3000 -p 35729:35729 -v (pwd):/app react:app
 
 ## Utilized Libraries
 
-To develop the test were used:
+To develop the project were used:
 
 * React
 * Redux
