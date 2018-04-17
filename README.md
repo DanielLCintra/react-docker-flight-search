@@ -3,19 +3,19 @@
 ## To run project in development mode: 
 
 ```sh
-yarn run docker-dev
+docker container run -it -p 3000:3000 -p 35729:35729 -v (pwd):/app react:app
 ```
 
 ## To build project 
 
 ```sh
-yarn run docker-build
+docker container run -it -v (pwd):/app react:app build
 ```
 
 ## To run tests 
 
 ```sh
-yarn run docker-tests
+docker container run -it -v (pwd):/app react:app test
 ```
 
 ## Utilized Libraries
