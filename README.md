@@ -2,15 +2,21 @@
 
 ## To run project in development mode: 
 
+```sh
 yarn run docker-dev
+```
 
 ## To build project 
 
+```sh
 yarn run docker-build
+```
 
 ## To run tests 
 
+```sh
 yarn run docker-tests
+```
 
 ## Utilized Libraries
 
