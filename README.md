@@ -25,7 +25,7 @@ docker container run -it -v $(pwd):/app react:app build
 docker container run -it -v $(pwd):/app react:app test
 ```
 
-## Obs: If your terminal doesn't support $(), run the scripts without $ and will work fine. Example: 
+#### Obs: If your terminal doesn't support $(), run the scripts without $ and will work fine. Example: 
 
 ```sh
 docker container run -it -p 3000:3000 -p 35729:35729 -v (pwd):/app react:app
