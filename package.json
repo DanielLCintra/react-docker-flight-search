@@ -1,0 +1,19 @@
+{
+  "name": "teste-maxmilhas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "docker-dev": "docker container run -it -p 3000:3000 -p 35729:35729 -v $(pwd):/app react:app",
+    "docker-build": "docker container run -it -v $(pwd):/app react:app build",
+    "docker-tests": "docker container run -it -v $(pwd):/app react:app test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
